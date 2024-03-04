@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Buses">
+      <UniqueIdentifier>{b5c5d309-c6b8-418e-92ed-46b006b44079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Passengers">
+      <UniqueIdentifier>{faeff4e4-9c49-4a77-90e3-3058f7f6dc90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DEFS header">
+      <UniqueIdentifier>{adf8dd5a-c5ad-495d-b30b-6ddc204d85e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data-Structures">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Time">
+      <UniqueIdentifier>{d1ca90b1-dd41-4190-acf1-fc1f59e04b2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Station">
+      <UniqueIdentifier>{bf440a07-3e12-438b-96b9-fa28089f845b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Event">
+      <UniqueIdentifier>{558f70ee-472e-4dfd-89dd-1a1236c6fc56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Company">
+      <UniqueIdentifier>{f4aac774-2542-4e99-8dd1-2b2210e60a22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{dff8804f-b3ca-4beb-ae20-ca7114f963bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bus.cpp">
+      <Filter>Buses</Filter>
+    </ClCompile>
+    <ClCompile Include="Passengers.cpp">
+      <Filter>Passengers</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Station.cpp">
+      <Filter>Station</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Company.cpp">
+      <Filter>Company</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrivalEvent.cpp">
+      <Filter>Event</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="LeaveEvent.cpp">
+      <Filter>Event</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PriorityQueueADT.h">
+      <Filter>Data-Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="QueueADT.h">
+      <Filter>Data-Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Data-Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="PQNode.h">
+      <Filter>Data-Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="PriorityQueue.h">
+      <Filter>Data-Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>Data-Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>Data-Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Bus.h">
+      <Filter>Buses</Filter>
+    </ClInclude>
+    <ClInclude Include="Passengers.h">
+      <Filter>Passengers</Filter>
+    </ClInclude>
+    <ClInclude Include="DEFS.h">
+      <Filter>DEFS header</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Station.h">
+      <Filter>Station</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Company.h">
+      <Filter>Company</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrivalEvent.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="LeaveEvent.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="BST.h">
+      <Filter>Data-Structures</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

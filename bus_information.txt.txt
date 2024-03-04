@@ -1,0 +1,5 @@
+1 WheelChairBus 30 5 4.5
+2 MixedBus 40 3 6.0
+3 WheelChairBus 25 4 4.0
+4 MixedBus 35 3 5.5
+5 WheelChairBus 28 6 4.2
